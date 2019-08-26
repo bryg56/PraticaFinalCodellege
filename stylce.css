@@ -72,8 +72,12 @@ body {
 /*Fin Estilo de navbar */
 
 
+/*Inicio Aliados */
+
 .aliados {
     background: url('./imagenes/aliados.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 60em;
     padding: 24px 0px;
@@ -86,103 +90,386 @@ body {
     color: whitesmoke;
 }
 
+img {
+    width: 50px;
+    border-style: none;
+    height: 20px;
+}
+
 .imagenes {
     align-items: center;
     position: relative;
+    height: 80%;
 }
 
 .fondoBlan {
-    background: white;
+    /* background: white; */
+    border: 10px solid #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
+
 .tamanio1{
     width:15em;
     height:15em;
-    border-radius: 50%;
-    position: relative;
-    top: 2em;
-    left: 0em;
+    top: 2%;
+    left: 20%;
+    position: absolute;
 }
 
 .tamanio2{
     width:10em;
     height:10em;
-    border-radius: 50%;
-    position: relative;
-    top: 10em;
-    left: 0em;
+    left: 37%;
+    top: 35%;
+    position: absolute;
 }
-
 
 .tamanio3{
     width:8em;
     height:8em;
-    border-radius: 50%;
-    position: relative;
-    top:2em;
-    left: 0em;
-} 
+    left: 50%;
+    top: 20%;
+    position: absolute;
+}
 
 .tamanio4{
     width:12em;
     height:12em;
-    border-radius: 50%;
-    position: relative;
-    top: 10em;
-    left: 0em;
+    left: 63%;
+    top: 26%;
+    position: absolute;
 }
 
-img {
-    width: 50px;
+.colorTrans1, .colorTrans2,.colorTrans3,.colorTrans4{
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, blue ,green ,transparent);
+    /* mix-blend-mode: color; */  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.img1, .img2, .img3, .img4{
+    border-radius: 50%;
+    width: 90%;
+    height: 90%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes>div>div>div img{
+    width: 70%;
+    height: 70%;
+    
+}
+
+/* Fin seccion Aliados*/
+
+/*Inicio seccion testimonios*/
+.testimonioSec{
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    display: block;
+    width: 100;
+    height: 100vh;
+    padding: 20px;
+    margin: 0px 55px;
+}
+
+.testimoniosSlider{
+    width: 95%;
+    background: white;
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimoniosSlider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s ease-in-out infinite alternate;
+}
+
+.testimoniosSlider li{
+    width: 100%;
+    list-style: none;
+}
+
+.testimoniosSlider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    20%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+.testTitulo, .colTitulo{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 120px;
+    font-family: Montserrat;
+    font-size: 35px;
+    line-height: 1.24;
+    margin: 0 auto;
+    display: block;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #0264fb;
+}
+
+.testText{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: #000;
+    line-height: 1.2;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.pName{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 32px;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    
+}
+
+.tere, .leopoldo, .andrea, .yoselin{
+    width: 100%;
+    background: white;
+    justify-content: space-between; 
+}
+
+.personThink img{
+    width: 150px;
+    height: 150px;
+}
+
+/*Fin seccion testimonios*/
+
+
+/*Inicio seccion colabora*/
+
+.colaboraSec{
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1700px;
+    text-align: center;
+    box-sizing: inherit;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+
+.colTitulo{
+    padding: 120px 0px 42px;
+    font-size: 50px;
+    font-family: Montserrat;
+    line-height: 1.24;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #0264fb;
+}
+
+.colabora{
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1700px;
+    text-align: center;
+    padding: 0px ;
+    display: block;
+    box-sizing: inherit;
+}
+
+.menu>.inclusion, .monitoreo, .replica, .donacion{
+    padding: 65px 8px 8px;
+    height: 215px;
+    width: 20%;
+    box-sizing: inherit;
+    display: block;
+    text-align: center;
+    background-color: rgb(2, 100, 251);
+    border-radius: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-around
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagenInclusion img{
+    width: 75px;
+    height: 75px;
+    box-sizing: inherit;
+    position: relative;
+    top: -100px;
+}
+
+.imagenInclusion li{
+    list-style: none;
+    width: 100%;;
+    height: 0;
+    align-items: center;
+    top: 2%;
+}
+
+.cName{
+    font-weight: 500;
+    line-height: 1.55;
+    font-size: 30px;
+    font-family: Montserrat;
+    display: block;
+    color:#fff;
+    text-align: center;
+}
+
+.colaboraText{
+    padding: 0px 16px;
+    line-height: 1.17;
+    letter-spacing: -0.6px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Open Sans,sans-serif;
+    color:#fff;
+}
+
+.cajas{
+    padding: 8px;
+    position: relative;
+    bottom: 55px;
+    box-sizing: inherit;
+    display: block;
+    text-align: center;
+    color: #fff;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+/*Fin seccion testimonios*/
+
+/*Inicio seccion Final*/
+
+.duda{
+    line-height: 1.2;
+    font-size: 25px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.escribe{
+    margin: 0px 0px 8px;
+    padding: 4px 0px 0px;
+    letter-spacing: -0.8px;
+    font-size: 25px;
+    font-family: Open Sans,sans-serif;
+    text-align: center;
+}
+
+
+.final{
+    background: url('./imagenes/final.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 0px;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.correo{
+    padding: 15px 30px;
+    text-align: center;
+    font-family: Montserrat;
+    background: white;
+    color: #acb3bd;
+    font-size: 25px;
+    width: 300px;
+    font-weight: bolder;
+    max-width: 100%;
+    border-radius: 75px 0 75px 0;
+    margin: 0 auto;
+}
+
+.info{
+    padding: 0;
+    padding-bottom: 15%;
+    position: relative;
+    top: 55%
+}
+
+.final2{
+    padding: 60px 100px;
+    position: relative;
+    display: flex;
+    top: 28%;
+}
+
+.imgcol{
     border-style: none;
-    /* height: 20px; */
-}
-
-
-
-.img1{
-    width:15em;
-    height:15em;
-    border-radius: 50%;
+    max-width: 100%;
+    width: 300px;
+    text-align: left;
     position: relative;
-    top: 2em;
-    left: 0em;
-
-}
-
-.img2{
-    width:10em;
-    height:10em;
-    border-radius: 50%;
-    position: relative;
-    top: 10em;
-    left: 0em;
+    display: flex;
     
+
 }
 
-.img3{
-    width:8em;
-    height:8em;
-    border-radius: 50%;
+.imgcol img{    
+    width: 300px;
+    height: 80px;
+}
+
+.face{
     position: relative;
-    top:2em;
-    left: 0em;
-    
-}
-
-.img4{
-    width:12em;
-    height:12em;
-    border-radius: 50%;
-    position: relative;
-    top: 10em;
-    left: 0em;
-    
-}
-
-img{
+    text-align: right;
+    left: 950px;
+    top:10px;
+    color: -webkit-link;
+    cursor: pointer;
+    padding-top: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
     border-style: none;
-    
-} */
+    width: 20px;
+    max-width: 10%;
+}
+
+
+/*Fin seccion Final*/
+
 
 
 
