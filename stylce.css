@@ -500,39 +500,39 @@ body {
 /*Fin seccion Final*/
 
 .img1 {
-    width: 15em;
-    height: 15em;
+    width: 90%;;
+    height: 90%;
     border-radius: 50%;
     position: relative;
-    top: 2em;
-    left: 0em;
+    /* top: 2em;
+    left: 0em; */
 }
 
 .img2 {
-    width: 10em;
-    height: 10em;
+    width: 90%;;
+    height: 90%;
     border-radius: 50%;
     position: relative;
-    top: 10em;
-    left: 0em;
+    /* top: 10em;
+    left: 0em; */
 }
 
 .img3 {
-    width: 8em;
-    height: 8em;
+    width: 90%;;
+    height: 90%;
     border-radius: 50%;
     position: relative;
-    top: 2em;
-    left: 0em;
+    /* top: 2em;
+    left: 0em; */
 }
 
 .img4 {
-    width: 12em;
-    height: 12em;
+    width: 90%;;
+    height: 90%;
     border-radius: 50%;
     position: relative;
-    top: 10em;
-    left: 0em;
+    /* top: 10em;
+    left: 0em; */
 }
 
 
