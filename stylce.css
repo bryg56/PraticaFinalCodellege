@@ -1027,3 +1027,9 @@ body {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width: 375px){
+   .Barra{ width: 100%;
+    height: 7vh;
+   }
+}
