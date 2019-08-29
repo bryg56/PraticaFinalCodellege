@@ -1186,7 +1186,7 @@ body {
         align-items: center;
         flex-direction: column;
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: 20px;
+        margin-bottom: -150px;
     }
     .Que_Codellege>h1 {
         color: rgb(75, 75, 241);
@@ -1218,8 +1218,8 @@ body {
         /* z-index: -2; */
     }
     .cuadradito2 {
-        width: 37.5px;
-        height: 12px;
+        width: 20%;
+        height: 10vh;
         position: absolute;
         display: block;
         left: 60%;
@@ -1238,29 +1238,29 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 31.25px;
-        height: 15px;
+        width: 55px;
+        height: 19px;
         background: rgb(236, 236, 236);
         position: absolute;
         top: 85%;
         right: -5%;
         border-top-right-radius: 50px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 5px;
+        font-size: 6px;
     }
     #plus2 {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
         background: rgb(55, 55, 247);
         /* display: block; */
-        font-size: 15px;
+        font-size: 10px;
         position: absolute;
         border-radius: 50%;
         top: 85%;
-        right: 72%;
+        right: 64%;
         font-family: 'Montserrat', sans-serif;
         color: white;
         z-index: 5;
@@ -1270,7 +1270,7 @@ body {
         justify-content: center;
         align-items: center;
         width: 60px;
-        height: 20px;
+        height: 19px;
         background: rgb(236, 236, 236);
         position: absolute;
         top: 85%;
@@ -1299,7 +1299,7 @@ body {
         z-index: 5;
     }
     .cuadradito1 section {
-        width: 246px;
+        width: 238px;
         opacity: 0;
         height: 150px;
         transition: 0.2s;
@@ -1313,9 +1313,9 @@ body {
         border-top-right-radius: 5px;
     }
     .cuadradito2 section {
-        width: 280px;
+        width: 238px;
         opacity: 0;
-        height: 180px;
+        height: 150px;
         transition: 0.2s;
         background: rgb(55, 55, 247);
         color: white;
